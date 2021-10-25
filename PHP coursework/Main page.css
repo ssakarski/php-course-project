@@ -1,0 +1,165 @@
+@charset "utf-8";
+.backgroundColor{
+	background-color:#1B1B1B
+}
+.contentBox{
+	margin:auto;
+	height:1200px;
+	width:1000px;
+	}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #111;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: red}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.header{
+height:400px;
+color:white;
+font-style:italic;
+font-size:56px;
+text-align:center;
+text-shadow:#512A2B;
+}
+.center{
+	align-self:center;
+}
+.textBox{
+	float:left;
+	width:40%;
+	height:550px;
+	color:white;
+	margin-left:40px;
+	margin-top:50px;
+	text-align:center;
+	text-justify:auto;
+}
+.textBox1{
+	float:right;
+	width:40%;
+	height:550px;
+	color:white;
+	margin-right:40px;
+	margin-top:50px;
+	text-align:center;
+	text-justify:auto;
+}
+.facts{
+	color: white;
+	height: 50px;
+	width: 920px;
+	margin-top: 40px;
+	margin-left: 40px;
+	margin-right: 40px;
+	text-align: center;
+	font-size: 42px;
+	font-style: italic;
+	font: bold;
+}
+
+.life{
+width:600px;
+text-justify:auto;
+margin-left:10px;
+margin-top:20px;
+color:white;
+height:1100px;
+text-align:left;
+float:left;
+
+}
+.mozart{
+width:300px;
+margin-top:100px;
+margin-right:10px;
+height:600px;
+float:right;
+}
+.video{
+margin-top:100px;
+margin-right:10px;
+float:right;	
+}
+.oneMoreImage{
+width:350px;
+float:right;
+height:480px;
+margin-top:20px;
+margin-right:10px;
+color:white;
+}
+.picName{
+color:white;
+margin:20px;
+width:310px;
+height:40px;
+text-align:center;
+}
+.picInfo{
+color:white;
+height:360px;
+width:310px;
+float:left;
+margin:20px;
+}
+.eras{
+width:350px;
+margin-top:20px;
+margin-right:10px;
+height:600px;
+float:right;
+}
+.media{
+	float:right;
+	margin:100px;	
+}
+.media1{
+height:300px;
+width:300px;
+float:left;
+margin:10px;	
+}
